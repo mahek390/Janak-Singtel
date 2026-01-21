@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Janak Singtel — Groundnut Oil Manufacturers</title>
+    <meta name="description" content="Janak Singtel manufactures and sells premium groundnut (peanut) oil — cold pressed, refined, and packed with care." />
+    <style>
+        :root{
+            --royal-blue: #4169E1;
+            --brand-yellow: #FFD400;
+            --brand-red: #D32F2F;
+            --muted: #666;
+            --bg: #fffaf5;
+            --max-width: 1100px;
+            --radius: 10px;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        *{box-sizing:border-box}
+        body{
+            margin:0;
+            background: linear-gradient(180deg, #fff 0%, var(--bg) 100%);
+            color:#111;
+            line-height:1.45;
+            -webkit-font-smoothing:antialiased;
+        }
+
+        .container{max-width:var(--max-width);margin:0 auto;padding:24px;}
+
+        header{
+            display:flex;align-items:center;justify-content:space-between;
+            gap:16px;margin-bottom:18px;
+        }
+        .brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit}
+        .logo{
+            width:64px;height:64px;border-radius:12px;
+            display:grid;place-items:center;background:linear-gradient(135deg,var(--brand-yellow),#FFE77A);
+            box-shadow:0 6px 18px rgba(65,105,225,0.12);
+            flex:0 0 64px;
+        }
+        .site-title{font-weight:700;font-size:1.15rem}
+        nav{display:flex;gap:14px;align-items:center}
+        .nav-link{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px}
+        .nav-link:hover{background:#fff;border:1px solid rgba(0,0,0,0.04);color:var(--royal-blue)}
+
+        /* Hero */
+        .hero{
+            display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;
+            margin:18px 0 32px;
+        }
+        .hero h1{font-size:2rem;margin:0 0 8px;color:var(--royal-blue)}
+        .lead{color:var(--muted);margin:0 0 16px}
+        .cta{display:inline-flex;gap:10px;align-items:center;padding:12px 16px;border-radius:10px;background:var(--royal-blue);color:white;text-decoration:none;font-weight:600;border:0}
+        .secondary{background:transparent;border:1px solid rgba(65,105,225,0.12);color:var(--royal-blue);padding:10px 14px;border-radius:10px;text-decoration:none}
+
+        .hero-card{
+            background:linear-gradient(180deg,#fff,var(--bg));
+            border-radius:var(--radius);padding:18px;box-shadow:0 10px 30px rgba(65,105,225,0.06);
+        }
+        .product-figure{display:flex;flex-direction:column;align-items:center;gap:12px}
+        .bottle{
+            width:160px;height:220px;border-radius:16px;background:linear-gradient(180deg,#fff8e0,#fff1c0);border:6px solid #fff3b8;box-shadow:0 10px 24px rgba(208,29,29,0.06);
+            display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--brand-red)
+        }
+
+        /* Grid */
+        .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:28px}
+        .card{background:white;border-radius:12px;padding:18px;box-shadow:0 8px 20px rgba(0,0,0,0.03)}
+        .card h3{margin:0 0 8px;color:var(--royal-blue)}
+        .card p{margin:0;color:var(--muted)}
+
+        footer{padding:20px 0;border-top:1px solid #ffe8b8;margin-top:30px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+        .pill{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(65,105,225,0.08);color:var(--royal-blue);font-weight:600}
+
+        /* Responsive */
+        @media (max-width:880px){
+            .hero{grid-template-columns:1fr;gap:18px}
+            .grid{grid-template-columns:repeat(2,1fr)}
+        }
+        @media (max-width:520px){
+            header{flex-direction:column;align-items:flex-start}
+            .grid{grid-template-columns:1fr}
+            .logo{width:56px;height:56px}
+            .site-title{font-size:1rem}
+        }
+
+        /* simple form */
+        .contact{display:grid;gap:8px}
+        input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #eee;background:white}
+        button[type="submit"]{background:var(--brand-red);color:white;border:0;padding:10px 12px;border-radius:8px;font-weight:700}
+        small{color:var(--muted)}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="brand" href="#" aria-label="Janak Singtel home">
+                <div class="logo" role="img" aria-hidden="true">
+                    <!-- Simple mark: groundnut + drop -->
+                    <svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect x="0" y="0" width="64" height="64" rx="12" fill="none"></rect>
+                        <circle cx="30" cy="28" r="10" fill="#FFD400"/>
+                        <path d="M38 18c5 6 2 16-6 20" stroke="#D32F2F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M26 42c4-2 12-3 16-10" stroke="#4169E1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <div class="site-title">Janak Singtel</div>
+                    <div style="font-size:.82rem;color:var(--muted)">Pure Groundnut Oil • Since 1998</div>
+                </div>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a class="nav-link" href="#products">Products</a>
+                <a class="nav-link" href="#benefits">Benefits</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" aria-labelledby="hero-title">
+                <div>
+                    <h1 id="hero-title">Janak Singtel — Premium Groundnut Oil</h1>
+                    <p class="lead">From careful sourcing to hygienic processing, we produce healthy, flavorful groundnut oil for households and industry. Naturally rich in nutrients and ideal for cooking, frying and seasoning.</p>
+                    <p>
+                        <a class="cta" href="#products">Explore products</a>
+                        <a class="secondary" href="#contact" style="margin-left:10px">Get a quote</a>
+                    </p>
+
+                    <div style="margin-top:18px" class="grid">
+                        <div class="card">
+                            <h3>Cold Pressed</h3>
+                            <p>Unrefined oil retaining aroma and nutrients — ideal for dressings and light cooking.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Refined</h3>
+                            <p>High smoke point refined oil for deep-frying and industrial use.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Bulk & Packaging</h3>
+                            <p>Customizable packaging for retail bottles, jerrycans and industrial containers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="hero-card" aria-label="Featured product">
+                    <div class="product-figure">
+                        <div class="bottle" role="img" aria-label="Bottle of Janak Singtel groundnut oil">
+                            <div style="text-align:center">
+                                <div style="font-size:.9rem">Groundnut</div>
+                                <div style="font-size:1.2rem;margin-top:6px;color:var(--royal-blue)">Janak Singtel</div>
+                            </div>
+                        </div>
+                        <div style="text-align:center">
+                            <strong style="display:block;color:var(--brand-red)">Pure Refined Oil</strong>
+                            <small style="color:var(--muted)">1L • 5L • 20L Bulk</small>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section id="benefits" aria-labelledby="benefits-title" style="margin-bottom:24px">
+                <h2 id="benefits-title" style="color:var(--royal-blue);margin:0 0 12px">Why Choose Our Oil?</h2>
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+                    <div class="card">
+                        <h3>Quality Sourcing</h3>
+                        <p>We partner with trusted farmers and test every lot to ensure purity.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Food-Safe Processing</h3>
+                        <p>Strict hygiene and modern refining for consistent quality and safety.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Sustainability</h3>
+                        <p>Waste-minimizing processes and responsible packaging options.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="products" aria-labelledby="products-title" style="margin-bottom:18px">
+                <h2 id="products-title" style="color:var(--royal-blue);margin-bottom:12px">Our Products</h2>
+                <div class="grid" role="list">
+                    <div class="card" role="listitem">
+                        <h3>Cold-Pressed Groundnut Oil — 500ml</h3>
+                        <p>Rich aroma, natural flavor, best for salads and finishing dishes.</p>
+                    </div>
+                    <div class="card" role="listitem">
+                        <h3>Refined Cooking Oil — 1L</h3>
+                        <p>Neutral taste, high smoke point — ideal for frying and large-scale kitchens.</p>
+                    </div>
+                    <div class="card" role="listitem">
+                        <h3>Industrial Bulk — 20L</h3>
+                        <p>Packaged for food factories and businesses with assured quality control.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" aria-labelledby="contact-title">
+                <h2 id="contact-title" style="color:var(--royal-blue);margin-bottom:8px">Contact & Orders</h2>
+                <div style="display:grid;grid-template-columns:1fr 320px;gap:18px">
+                    <div class="card">
+                        <form class="contact" onsubmit="event.preventDefault(); alert('Request received — we will contact you.');">
+                            <label>
+                                <small>Your name</small>
+                                <input type="text" name="name" required placeholder="e.g. Priya Sharma" />
+                            </label>
+                            <label>
+                                <small>Email</small>
+                                <input type="email" name="email" required placeholder="name@example.com" />
+                            </label>
+                            <label>
+                                <small>Message / Order details</small>
+                                <textarea name="message" rows="4" required placeholder="Tell us what you need"></textarea>
+                            </label>
+                            <div style="display:flex;gap:10px;align-items:center;">
+                                <button type="submit">Send request</button>
+                                <small style="color:var(--muted)">Or call: <strong style="color:var(--royal-blue)">+91 90000 00000</strong></small>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card" style="display:flex;flex-direction:column;gap:8px;justify-content:center">
+                        <div>
+                            <strong>Factory & Office</strong>
+                            <div style="color:var(--muted);font-size:.95rem">Plot A-12, Industrial Area, Gujarat, India</div>
+                        </div>
+                        <div>
+                            <strong>Business hours</strong>
+                            <div style="color:var(--muted);font-size:.95rem">Mon — Sat: 9:00 — 18:00</div>
+                        </div>
+                        <div>
+                            <strong>Wholesale & Exports</strong>
+                            <div style="color:var(--muted);font-size:.95rem">Export-ready packaging, certifications on request.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div style="display:flex;gap:12px;align-items:center">
+                <div class="pill">Janak Singtel</div>
+                <small>© <span id="year"></span> All rights reserved</small>
+            </div>
+            <small>Crafted with care • <span style="color:var(--brand-yellow)">Groundnut</span> • <span style="color:var(--royal-blue)">Quality</span></small>
+        </footer>
+    </div>
+
+    <script>
+        // small dynamic bits
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
